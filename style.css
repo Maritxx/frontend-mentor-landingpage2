@@ -1,1 +1,183 @@
+/*Global Styles*/
+body {
+	font-family: var(--content-font);
+	font-weight: 600;
+}
 
+/*Font Styles*/
+h1 {
+	font-family: var(--heading-font);
+	font-size: 2.5rem;
+	font-weight: 900;
+	color: var(--box-white);
+}
+
+h2 {
+	font-family: var(--heading-font);
+	font-size: 1.8rem;
+	font-weight: 900;
+	color: var(--heading-primary);
+}
+
+h3 {
+	font-family: var(--heading-font);
+	font-size: 1.125rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--heading-review);
+
+}
+
+.two-column__content p {
+	font-size: 1.125rem;
+	color: var(--text-primary);
+}
+
+.graphic__text {
+	color: var(--text-graphic);
+}
+
+.photo__text {
+	color: var(--text-photo);
+}
+
+span.graphic__text, span.photo__text {
+	font-family: var(--heading-font);
+	font-weight: 900;
+	font-size: 1.6rem;
+}
+
+p.graphic__text, p.photo__text {
+	font-size: 1.125rem;
+}
+
+.testimonials__box p {
+	font-size: 1.125rem;
+	color: var(--text-review);
+}
+
+.testimonials__name {
+	font-size: 1rem;
+	font-weight: 900;
+	color: var(--heading-primary);
+}
+
+.testimonials__role {
+	font-size: 0.75rem;
+	font-weight: 700;
+	color: var(--heading-review);
+}
+
+.footer__heading {
+	font-family: var(--heading-font);
+	font-weight: 900;
+	font-size: 1.8rem;
+	color: var(--text-footer);
+}
+
+
+/*Header*/
+header {
+	background-image: url("img/mobile/image-header.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+/*Company Info Section*/
+.two-column__holder {
+	display: flex;
+	flex-direction: column;
+}
+
+.two-column__content {
+	padding: 40px 20px;
+	background-color: var(--box-white);
+	text-align: center;
+	flex: 0 1 100%;
+}
+
+.two-column__image {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 83.33% /*Height bg-image/100. Width - that answer for ratio percentage*/
+	flex: 0 1 100%;
+}
+
+.button__learn-more a {
+	font-size: 1.125rem;
+	text-transform: uppercase;
+	color: var(--heading-primary);
+}
+
+#bg-one {
+	background-image: url("img/mobile/image-transform.jpg")
+}
+
+#bg-two {
+	background-image: url("img/mobile/image-stand-out.jpg")
+}
+
+#bg-three {
+	background-image: url("img/mobile/image-graphic-design.jpg")
+}
+
+#bg-four {
+	background-image: url("img/mobile/image-photography.jpg")
+}
+
+
+
+/*Testimonials Section*/
+.testimonials__box img {
+	border-radius: 90px;
+	width: 32px;
+	height: 32px;
+}
+
+.testimonials__box {
+	padding: 40px 20px;
+	text-align: center;
+}
+
+
+
+/*Gallery Section*/
+.gallery__holder {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery-image__box {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	flex: 0 1 50%;
+	padding-top: 124.16%;
+}
+
+#bg-five {
+	background-image: url("img/mobile/image-gallery-milkbottles.jpg")
+}
+
+#bg-six {
+	background-image: url("img/mobile/image-gallery-orange.jpg")
+}
+
+#bg-seven {
+	background-image: url("img/mobile/image-gallery-cone.jpg")
+}
+
+#bg-eight {
+	background-image: url("img/mobile/image-gallery-sugar-cubes.jpg")
+}
+
+
+
+/*Footer Section*/
+footer {
+	background-color: var(--box-cyan);
+}
