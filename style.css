@@ -43,11 +43,11 @@ h3 {
 	padding: 20px 0px;
 }
 
-p.graphic__text {
+p.graphic__text, span.graphic__text {
 	color: var(--text-graphic);
 }
 
-p.photo__text {
+p.photo__text, span.photo__text {
 	color: var(--text-photo);
 }
 
@@ -59,6 +59,7 @@ span.graphic__text, span.photo__text {
 
 p.graphic__text, p.photo__text {
 	font-size: 1.125rem;
+	max-width: 375px;
 }
 
 .testimonials__box p {
@@ -95,10 +96,6 @@ header {
 	padding: 40px 20px;
 }
 
-.header-top {
-	display: inline-block;
-}
-
 .topnav {
 	float: right;
 }
@@ -117,6 +114,7 @@ header {
 	max-width: 375px;
 	background-color: var(--box-white);
 	text-align: center;
+	margin: 0 auto;
 }
 
 .two-column__image {
@@ -130,7 +128,9 @@ header {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding-top: calc(160% - 32px);
+	padding: 40px;
+	padding-top: calc(160% - 112px);
+	text-align: center;
 }
 
 .button__learn-more a {
@@ -169,6 +169,8 @@ header {
 .testimonials__box {
 	padding: 40px 20px;
 	text-align: center;
+	max-width: 375px;
+	margin: 0 auto;
 }
 
 
@@ -184,7 +186,8 @@ header {
 	background-position: center;
 	background-repeat: no-repeat;
 	flex: 0 1 50%;
-	padding-top: 124.16%;
+	padding-top: 50%;
+	text-align: center;
 }
 
 #bg-five {
