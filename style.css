@@ -6,6 +6,7 @@ body {
 
 .button {
 	display: block;
+	background-color: unset;
 }
 
 .c-reverse {
@@ -119,14 +120,38 @@ header {
 	padding-bottom: 80px;
 }
 
+.header-top {
+	position: relative;
+}
+
 #dropdownbox {
+	position: absolute;
 	display: none;
 	background-color: white;
-	color: var(--text-review);
-	font-size: 1.25rem;
-	font-weight: 700;
-	padding: 40px;
+	width: 95vw;
+	margin-left: -97%;
+	margin-top: 40px;
+	text-align: center;
 }
+
+li a {
+	font-size: 1.25rem;
+	color: var(--heading-review);
+	font-weight: 700;
+	display: block;
+	margin: 20px;
+	padding: 20px;
+}
+
+.button__yellow a {
+	padding: 20px;
+	color: var(--heading-primary);
+	text-transform: uppercase;
+	margin: 20px;
+	background-color: var(--box-yellow);
+}
+
+
 
 /*Company Info Section*/
 .two-column__content {
