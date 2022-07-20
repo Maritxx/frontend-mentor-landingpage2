@@ -127,20 +127,21 @@ header {
 	position: absolute;
 	display: none;
 	background-color: var(--box-white);
-	width: 95vw;
-	margin-left: -97%;
+	width: 91vw;
+	margin-left: -94%;
 	margin-top: 40px;
 	text-align: center;
 	padding: 30px 0px;
 }
 
 #dropdownbox::after {
-	content: ""
-	border-color: var(--box-white) transparent transparent transparent;
-	top: 100%;
-	left: 90%;
-	margin-left: -10px;
-	border-width: 10px;
+	content: "";
+	position: absolute;
+	border-color: transparent var(--box-white) var(--box-white) transparent;
+	top: -7%
+	left: -8vw;
+	margin-left: -8vw;
+	border-width: 4vw;
 	border-style: solid;
 }
 
@@ -155,6 +156,8 @@ li {
 .button__yellow a {
 	padding: 20px;
 	color: var(--heading-primary);
+	font-family: var(--heading-font);
+	font-weight: 900;
 	text-transform: uppercase;
 	margin: 0 auto;
 	background-color: var(--box-yellow);
