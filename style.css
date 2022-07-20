@@ -140,6 +140,10 @@ header {
 	border-style: solid;
 }
 
+button img {
+	background-color: unset;
+}
+
 li {
 	font-size: 1.25rem;
 	color: var(--heading-review);
@@ -297,14 +301,14 @@ li {
 footer {
 	background-color: var(--box-cyan);
 	text-align: center;
-	padding: 60px 40px;
+	padding: 60px 10px;
 
 }
 
 .footernav li {
 	display: inline-block;
 	color: var(--text-footer);
-	padding: 40px;
+	padding: 20px;
 }
 
 .footernav li a:hover {
@@ -455,5 +459,13 @@ footer {
 	.gallery-image__box {
 		flex: 0 1 25%;
 		padding-top: 25%;
+	}
+
+	footer {
+	padding: 60px 40px;
+	}
+
+	.footernav li {
+	padding: 40px;
 	}
 }
