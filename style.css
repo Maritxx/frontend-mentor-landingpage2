@@ -4,13 +4,12 @@ body {
 	font-weight: 600;
 }
 
-.button {
-	display: block;
-	background-color: unset;
-}
-
 .c-reverse {
 	flex-direction: row-reverse;
+}
+
+button {
+	background-color: unset;
 }
 
 
@@ -127,19 +126,29 @@ header {
 #dropdownbox {
 	position: absolute;
 	display: none;
-	background-color: white;
+	background-color: var(--box-white);
 	width: 95vw;
 	margin-left: -97%;
 	margin-top: 40px;
 	text-align: center;
+	padding: 30px 0px;
 }
 
-li a {
+#dropdownbox::after {
+	content: ""
+	border-color: var(--box-white) transparent transparent transparent;
+	top: 100%;
+	left: 90%;
+	margin-left: -10px;
+	border-width: 10px;
+	border-style: solid;
+}
+
+li {
 	font-size: 1.25rem;
 	color: var(--heading-review);
 	font-weight: 700;
 	display: block;
-	margin: 20px;
 	padding: 20px;
 }
 
@@ -147,8 +156,11 @@ li a {
 	padding: 20px;
 	color: var(--heading-primary);
 	text-transform: uppercase;
-	margin: 20px;
+	margin: 0 auto;
 	background-color: var(--box-yellow);
+	border-radius: 30px;
+	max-width: 150px;
+	display: block;
 }
 
 
