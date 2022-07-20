@@ -71,18 +71,22 @@ p.graphic__text, p.photo__text {
 .testimonials__box p {
 	font-size: 1.125rem;
 	color: var(--text-review);
+	padding-bottom: 30px;
 }
 
 .testimonials__name {
 	font-size: 1rem;
 	font-weight: 900;
 	color: var(--heading-primary);
+	font-family: var(--heading-font);
 }
 
 .testimonials__role {
 	font-size: 0.75rem;
 	font-weight: 700;
 	color: var(--heading-review);
+	display: block;
+    padding-top: 10px;
 }
 
 .footer__heading {
@@ -168,8 +172,9 @@ header {
 /*Testimonials Section*/
 .testimonials__box img {
 	border-radius: 90px;
-	width: 45px;
-	height: 45px;
+	width: 70px;
+	height: 70px;
+	margin-bottom: 30px;
 }
 
 .testimonials__box {
@@ -288,6 +293,18 @@ footer {
 
 	#bg-eight {
 		background-image: url("img/desktop/image-gallery-sugarcubes.jpg");
+	}
+
+	.testimonials {
+		padding: 150px 80px;
+	}
+
+	.testimonials__box img {
+		margin-bottom: 50px;
+	}
+
+	.testimonials__box p {
+		padding-bottom: 50px;
 	}
 
 	.gallery-image__box {
