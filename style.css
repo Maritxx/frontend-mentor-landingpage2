@@ -313,8 +313,17 @@ footer {
 		padding: 20px 20px;
 	}
 
-	button.topnav {
+	button img {
 		display: none;
+	}
+
+	.header-top {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header-top img {
+		padding: 30px 20px;
 	}
 
 	#dropdownbox {
@@ -324,6 +333,7 @@ footer {
 		background-color: unset;
 		width: unset;
 		margin: unset;
+		padding: unset;
 	}
 
 	li {
@@ -335,6 +345,7 @@ footer {
 
 	.button__yellow a {
 		background-color: var(--box-white);
+		padding: 15px 20px;
 	}
 
 	#bg-one {
