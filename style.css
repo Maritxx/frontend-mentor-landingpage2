@@ -138,9 +138,8 @@ header {
 	content: "";
 	position: absolute;
 	border-color: transparent var(--box-white) var(--box-white) transparent;
-	top: -7%
-	left: -8vw;
-	margin-left: -8vw;
+	top: -4vh;
+	right: 0vw;
 	border-width: 4vw;
 	border-style: solid;
 }
@@ -310,7 +309,32 @@ footer {
 	}
 
 	header {
-	background-image: url("img/desktop/image-header.jpg");
+		background-image: url("img/desktop/image-header.jpg");
+		padding: 20px 20px;
+	}
+
+	button.topnav {
+		display: none;
+	}
+
+	#dropdownbox {
+		position: unset;
+		display: flex;
+		align-items: center;
+		background-color: unset;
+		width: unset;
+		margin: unset;
+	}
+
+	li {
+		padding: unset;
+		font-size: 1rem;
+		color: var(--box-white);
+		padding: 0px 20px;
+	}
+
+	.button__yellow a {
+		background-color: var(--box-white);
 	}
 
 	#bg-one {
