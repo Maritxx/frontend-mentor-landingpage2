@@ -272,7 +272,7 @@ li {
 footer {
 	background-color: var(--box-cyan);
 	text-align: center;
-	padding: 80px 40px;
+	padding: 60px 40px;
 
 }
 
@@ -283,11 +283,11 @@ footer {
 }
 
 .social-links__holder {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .social-links__holder a {
-	padding: 0px 30px;
+	padding: 0px 15px;
 }
 
 
@@ -358,7 +358,7 @@ footer {
 		padding: unset;
 	}
 
-	#dropdownbox {
+	#dropdownbox::after {
 		content: unset;
 	}
 
@@ -409,7 +409,7 @@ footer {
 	}
 
 	.testimonials {
-		padding: 150px 80px;
+		padding: 120px 80px;
 	}
 
 	.testimonials__box img {
