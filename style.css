@@ -38,6 +38,7 @@ h3 {
 	text-align: center;
 	padding-top: 40px;
 	letter-spacing: 0.2rem;
+	margin-bottom: 30px;
 
 }
 
@@ -203,6 +204,7 @@ li {
 	color: var(--heading-primary);
 	font-weight: 900;
 	margin-bottom: 20px;
+	font-family: var(--heading-font);
 }
 
 .hover__red a {
