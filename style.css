@@ -8,10 +8,6 @@ body {
 	flex-direction: row-reverse;
 }
 
-button {
-	background-color: unset;
-}
-
 
 /*Font Styles*/
 h1 {
@@ -165,6 +161,11 @@ li {
 	display: block;
 }
 
+.button__yellow a:hover {
+	background-color: #6FCFFF;
+	color: var(--box-white);
+}
+
 
 
 /*Company Info Section*/
@@ -196,17 +197,33 @@ li {
 	font-size: 1.125rem;
 	text-transform: uppercase;
 	color: var(--heading-primary);
+	font-weight: 900;
 	margin-bottom: 20px;
 }
 
 .hover__red a {
-	background-image: linear-gradient(180deg, transparent 85%, var(--box-red) 0);
+	background-image: linear-gradient(180deg, transparent 70%, #fe786733 0);
 	background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-left: -20px;
-    padding-right: 20px;
+    margin-left: -10px;
+    padding: 0px 10px;
 }
 
+.hover__yellow a {
+	background-image: linear-gradient(180deg, transparent 70%, #fad4002e 0);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: -10px;
+    padding: 0px 10px;
+}
+
+.hover__red a:hover {
+	background-image: linear-gradient(180deg, transparent 70%, var(--box-red) 0);
+}
+
+.hover__yellow a:hover {
+	background-image: linear-gradient(180deg, transparent 70%, var(--box-yellow) 0);
+}
 
 #bg-one {
 	background-image: url("img/mobile/image-transform.jpg")
@@ -290,6 +307,10 @@ footer {
 	padding: 40px;
 }
 
+.footernav li a:hover {
+	color: var(--box-white);
+}
+
 .social-links__holder {
 	padding-top: 50px;
 }
@@ -298,6 +319,9 @@ footer {
 	padding: 0px 15px;
 }
 
+.social-links__holder a:hover img {
+	filter: brightness(0%) invert(100%);
+}
 
 
 
