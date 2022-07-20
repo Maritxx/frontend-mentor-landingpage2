@@ -95,7 +95,7 @@ p.graphic__text, p.photo__text {
 .footer__heading {
 	font-family: var(--heading-font);
 	font-weight: 900;
-	font-size: 1.8rem;
+	font-size: 2.5rem;
 	color: var(--text-footer);
 }
 
@@ -271,7 +271,25 @@ li {
 /*Footer Section*/
 footer {
 	background-color: var(--box-cyan);
+	text-align: center;
+	padding: 80px 40px;
+
 }
+
+.footernav li {
+	display: inline-block;
+	color: var(--text-footer);
+	padding: 40px;
+}
+
+.social-links__holder {
+	padding-top: 100px;
+}
+
+.social-links__holder a {
+	padding: 0px 30px;
+}
+
 
 
 
@@ -313,6 +331,10 @@ footer {
 		padding: 20px 20px;
 	}
 
+	.header-hero img {
+		padding-bottom: 240px;
+	}
+
 	button img {
 		display: none;
 	}
@@ -323,7 +345,7 @@ footer {
 	}
 
 	.header-top img {
-		padding: 30px 20px;
+		padding: 25px 20px;
 	}
 
 	#dropdownbox {
@@ -336,6 +358,11 @@ footer {
 		padding: unset;
 	}
 
+	#dropdownbox {
+		content: unset;
+	}
+
+
 	li {
 		padding: unset;
 		font-size: 1rem;
@@ -346,6 +373,7 @@ footer {
 	.button__yellow a {
 		background-color: var(--box-white);
 		padding: 15px 20px;
+		font-size: 0.8rem;
 	}
 
 	#bg-one {
